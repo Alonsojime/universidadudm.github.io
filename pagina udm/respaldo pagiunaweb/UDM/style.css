@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,800&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Monserrat';
+}
+html{
+    scroll-behavior: auto;
+}
+#inicio{
+    background: url(fondo1.jfif);
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+}
+#texto{text-align: justify;}
+#inicio .contenido header{
+    background-color:rgba(83, 74, 74, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#inicio .contenido header{
+
+margin: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 20px;
+}
+#inicio h1 {
+    text-align: center;
+    color: #e20c0c;
+}
+#inicio .contenido header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5%;
+}
+#inicio .contenido header nav ul a:hover{
+  color:  #e20c0c;  
+}
+#inicio .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 60px;
+    transition: .5%;}
+
+    
+#inicio .redes a:hover{
+color: #e20c0c;
+}
+#inicio .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#inicio .presentacion .bienvenida{
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+#inicio .presentacion h2{
+    font-size: 44px;
+    margin-bottom: 25 px;
+    text-align: cemter;
+    color: rgb(240, 186, 39)
+}
+#inicio .presentacion h2 span{
+    font-size: 29px;
+    color: #e20c0c;
+}
+#inicio  .descripcion{
+    max-width: 700px;
+    margin:25px auto;
+    font-size:18px;
+    text-align: center;}
+
+    #inicio .presentacion a{
+        text-decoration: none;
+        display: inline-block;
+        margin: 15px;
+        padding: 12px 15px;
+        border: 2px solid #fff;
+        border-radius: 30px;
+        color: #fff;
+        font-weight:bold;
+        text-transform: uppercase;
+        transition: .5%;
+
+    }
+    #inicio .presentacion a:hover{
+        background-color: #c40808;
+    }
+    #icono-nav{
+        color: #fff;
+        display: none;
+    }
+
+    #inicio .presentacion h4{
+color:#cfcdcd}
+#inicio .presentacion .h4{
+    color:#d41d26
+}
+    
+    #sobremi{
+        max-width: 1100px;
+        margin:auto;
+        padding: 200px 90px;
+        color: #d41d26;
+        display: flex;
+    background-color: #dd9e9e2a;
+}
+    
+ 
+ #sobremi .contenedor-foto{
+    max-width: 400%;
+    margin-right: 80px;
+    color:red;
+
+ }
+ .contenedor-foto img{
+    padding:5px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+ }
+ #sobre mi {
+    margin: 0 40px;
+ }
+ #sobremi .titulo-section{
+    font-size: 22px; 
+    text-transform: uppercase;
+    color: #0e3997;
+    text-decoration: underline;
+    text-decoration-color: #8f7070;
+    text-decoration-thickness: .5px ;
+}
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+h2 span{
+    color: #e20c0c;
+}
+h3{
+
+    font-size: 18px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 14px;
+}
+
+ #sobremi a:hover{
+    background-color: #e20c0c;
+    color: white;
+ }
+ 
+#servicios{
+ 
+    text-align: center;
+
+}
+#servicios .titulo-section{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #0e3997;
+    text-decoration: underline;
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px ;}
+    
+    #servicios .fila{
+           
+        display: flex ;
+        justify-content: space-around;
+        max-width: 1100px;
+        margin: 30px auto;}
+   
+
+ .fila .servicios{
+background-color:#ebc9c9;
+    max-width: 998px;
+    border: 1px solid #000;
+    margin: 0 28px;
+    position: relative ;
+    overflow: hidden;
+    transition: 35%;
+    border-radius: 7px;
+      }
+    
+.fila .servicios:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+
+}
+
+ h4{
+    font-size: 20px;
+    margin-bottom: 18px;
+
+}
+.iconos{
+    display: inline-block;
+    width: 66px;
+    height: 60px;
+    border-radius:50%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-bottom: 25px
+}
+  hr{
+    width: 100px;
+    margin: auto;
+    color: #000;
+    margin-bottom: 30px;
+
+}
+.fila  ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
+
+}
+ .fila  p{
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.contenedor-skills{
+background: linear-gradient(#dad1d1cc, rgba(14, 13, 13, 0.8)), url(skills.jfif);
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center  center;
+padding: 67px 0;
+text-align: center;
+}
+.contenedor-skills .skills{
+    max-width: 600px;
+    margin: 30px auto;}
+
+.contenedor-skills .info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contenedor-skills .skills .lista{
+        display: inline-block;
+        margin-right: 20;
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+    }
+.contenedor-skills .skills .barra{
+    background-color: #919191;
+    width: 279spx;
+    height: 6px;
+    margin: 8px;
+    
+}
+.contenedor-skills .skills .barra .barra-progreso1{
+    background-color: #fff;
+    width: 95%;
+    height: 6px;
+    animation: progreso1 2% forwards;
+}
+
+.contenedor-skills .skills .barra .barra-progreso2{
+    background-color: #fff;
+    width: 88%;
+    height: 6px;
+    animation: progreso2 2% forwards;}
+
+.contenedor-skills .skills .barra .barra-progreso3{
+        background-color: #fff;
+        width: 96%;
+        height: 6px;
+        animation: progreso3 2% forwards;}
+
+.contenedor-skills .skills .barra .barra-progreso4{
+            background-color: #fff;
+            width: 97%;
+            height: 6px;
+            animation: progreso4 2% forwards; 
+}       
+@keyframes progreso1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;}
+    }
+    @keyframes progreso2{
+        0%{
+            width: 0;
+        }
+        88%{
+            width: 95%;}
+        }
+        @keyframes progreso3{
+            0%{
+                width: 0;
+            }
+            96%{
+                width: 95%;}
+            }
+
+            @keyframes progreso4{
+                0%{
+                    width: 0;
+                }
+                97%{
+                    width: 95%;}
+                }
+#portafolio{
+    max-width: 1100px;
+    padding: 100px;
+    margin: auto;
+}
+
+.seccion .proyecto .portafolio
+{ text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: #f3f3f3;
+    text-decoration-thickness: 5px ;}
+    
+    #portafolio .titulo-section{
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #0e3997;
+        text-decoration: underline;
+        text-decoration-color: #f3f3f3;
+        text-decoration-thickness: 5px ;}
+
+
+
+
+
+
+
+
+.fila{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+
+    #portafolio .fila .proyecto{
+        max-width: 450px;
+        border: 1px solid #000;
+        margin: 0 10px;
+        position: relative ;
+        overflow: hidden; 
+          
+    }
+     .fila img{
+    width: 360px;
+    height: 216px;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5%;
+}
+#portafolio .fila .proyecto:hover img{
+    filter: grayscale(0);
+}
+#portafolio .fila .proyecto .info{
+    position: absolute;
+    left: 0;
+    background-color: rgba(107, 156, 221, 0.8);
+    color: #ff5080;
+    width: 1090px;
+    padding: 10px;
+    opacity: 0;
+    bottom: 76px;
+    transition: .5%;
+}
+ #portafolio .fila .proyecto:hover .info{
+    opacity: 1;
+    bottom: 0;
+}
+#contacto{
+    padding: 10px 15px;
+}
+#contacto .titulo-section{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color:#d3d3d3;
+    text-decoration-thickness: 2px; ;
+}
+#contacto .contenedor-form{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contacto .contenedor-form .mitad{
+    display: flex;
+    justify-content: space-between;
+}
+#contacto .contenedor-form input{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid#919191 ;
+
+}
+#contacto .contenedor-form textarea{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191 ;}
+
+#contacto .contenedor-form  input{
+width: 788px;}
+
+ .mitad .input-full{
+    width: 100px;
+}
+#contacto.btn-enviar{
+display: block;
+margin: auto;
+cursor: pointer;
+transition: .5px;
+padding: 2px 8px;
+font-size: 18px;
+} 
+#contacto .btn-enviar:hover{
+    background-color: #ff5080;
+    color: #fff;
+}
+
+footer{
+     background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+footer a{
+     text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
+
+
